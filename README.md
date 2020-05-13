@@ -16,7 +16,9 @@ analyse.py——output the dev result
 
 reptile.py——reptile data from websites
 
-plot.py——plot with matplotlib.pyplot
+plot.py——plot loss line and accuracy line
+
+modelplot.py——plot composite of model
 
 transfer2json.py——process the reptile data
 
