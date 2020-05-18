@@ -3,31 +3,37 @@ A NLP Project for detecting climate misinformaion.
 
 There are four methods to implement this project.
 
-#File
-- 1ClassSVM.py——implement with 1ClassSVM   
-- LR.py——implement with Logistic Regression  
-- ffnn.py——implement with FeedForward Neural Network  
-- textcnn.py——implement with Text Convontional Neural Network  
-- analyse.py——output the dev result  
-- reptile.py——reptile data from websites  
-- plot.py——plot loss line and accuracy line  
-- modelplot.py——plot composite of model  
-- transfer2json.py——process the reptile data  
+# File
+├─Model
+	- 1ClassSVM.py——implement with 1ClassSVM   
+	- LR.py——implement with Logistic Regression  
+	- ffnn.py——implement with FeedForward Neural Network  
+	- textcnn.py——implement with Text Convontional Neural Network  
+├─Other
+	- analyse.py——output the dev result  
+	- transfer2json.py——process the reptile data  
+├─Plot
+	- plot.py——plot loss line and accuracy line  
+	- modelplot.py——plot composite of model  
+└─Reptile
+	- reptile.py——reptile data from websites  
 
-#Technology
+
+
+# Technology
 - OneClassSVM
 - Logistic Regression
 - FeedForward Neural Network
 - Convontional Neural Network
 
-#Framework
+# Framework
 - Tensorflow
 - nltk
 - sklearn
 - matplotlib
 - graphviz
 
-#Libraries
+# Libraries
 absl-py==0.9.0  
 astor==0.8.1  
 backend==0.2.4.1  
